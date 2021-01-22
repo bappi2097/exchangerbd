@@ -1,0 +1,373 @@
+.modal {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    z-index: 10000;
+    top: 0;
+    right: 0;
+    position: fixed;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    display: none;
+}
+.modal::-webkit-scrollbar {
+    display: none;
+}
+.modal > .modal-content {
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 50%;
+    background-color: white;
+    height: auto;
+}
+.modal > .modal-content > .modal-header {
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 30px;
+    text-align: center;
+    /* vertical-align: middle; */
+    border: none;
+    display: block;
+}
+
+.modal > .modal-content > .modal-header > .modal-header-title {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.modal > .modal-content > .modal-header > .close {
+    float: right;
+    font-size: 22px;
+    color: white;
+    background-color: rgb(17, 77, 95);
+    border-radius: 50%;
+    padding: 6px;
+    margin: 0;
+    cursor: pointer;
+    width: 33px;
+}
+
+.modal > .modal-content > .modal-body {
+    color: rgb(120, 154, 164);
+    background-color: rgb(17, 77, 95);
+    padding: 40px 60px;
+    /* font-size: 20px; */
+    font-weight: bold;
+}
+.modal > .modal-content > .modal-body > form {
+    margin: auto;
+    width: 60%;
+    justify-content: center;
+}
+.modal > .modal-content > .modal-body > form > .form-input {
+    padding-bottom: 30px;
+    display: block;
+}
+.modal > .modal-content > .modal-body > form > .form-input > .email {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    border-bottom: 2px solid rgb(120, 154, 164);
+    color: white;
+    width: 90%;
+    height: 30px;
+    font-size: 17px;
+    border-radius: 3px;
+}
+
+.modal > .modal-content > .modal-body > form > .form-input > .password {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    border-bottom: 2px solid rgb(120, 154, 164);
+    color: white;
+    width: 90%;
+    height: 30px;
+    font-size: 17px;
+    border-radius: 3px;
+}
+.modal > .modal-content > .modal-body > form > .form-input > .fa-eye {
+    float: right;
+    margin-left: -3.5%;
+    overflow: hidden;
+    position: absolute;
+    color: black;
+}
+
+.modal > .modal-content > .modal-body > form > .form-input > .fa-eye-slash {
+    float: right;
+    margin-left: -3.5%;
+    overflow: hidden;
+    color: black;
+    position: absolute;
+}
+.modal > .modal-content > .modal-body > form > .remember-forget {
+    font-size: 16px;
+    color: white;
+}
+.modal > .modal-content > .modal-body > form > .remember-forget > label {
+    cursor: pointer;
+}
+.modal > .modal-content > .modal-body > form > .remember-forget > a {
+    font-size: 16px;
+    color: white;
+    float: right;
+}
+.modal > .modal-content > .modal-body > form > .login-btn {
+    margin: auto;
+    width: max-content;
+    padding: 20px;
+    font-size: 15px;
+}
+
+.modal > .modal-content > .modal-body > form > .login-btn > input {
+    background-color: black;
+    color: white;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    padding: 5px 10px;
+    margin: auto;
+    cursor: pointer;
+}
+
+.modal > .modal-content > .modal-body > form > .login-btn > input:hover {
+    box-shadow: 0px 0px 3px rgb(0, 0, 0);
+}
+
+.modal > .modal-content-reg {
+    width: 60%;
+}
+.modal > .modal-content > .modal-body > .form-reg {
+    width: 80%;
+}
+.modal > .modal-content > .modal-body > .form-reg > .form-input-reg {
+    float: left;
+    width: 50%;
+    padding-bottom: 20px;
+}
+.modal > .modal-content > .modal-body > .form-reg > .form-input-reg > label {
+    font-size: 16px;
+}
+.modal > .modal-content > .modal-body > .form-reg > .form-input-reg > input {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    border-bottom: 2px solid rgb(120, 154, 164);
+    color: white;
+    width: 80%;
+    height: 27px;
+    font-size: 15px;
+    border-radius: 3px;
+    margin-right: 40px;
+}
+.modal > .modal-content > .modal-body > .form-reg > .form-input-reg > textarea {
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    font-size: 17px;
+    border: 1px solid rgb(120, 154, 164);
+    border-bottom: 2.5px solid rgb(120, 154, 164);
+}
+.modal > .modal-content > .modal-body > .form-reg > .form-input-terms {
+    color: rgb(233, 233, 233);
+    font-size: 12px;
+}
+.modal > .modal-content > .modal-body > .form-reg > .form-input-terms > label {
+    cursor: pointer;
+}
+.modal > .modal-content > .modal-body > .form-reg > .reg-btn {
+    margin: auto;
+    width: max-content;
+    font-size: 16px;
+}
+.modal > .modal-content > .modal-body > .form-reg > .reg-btn > input {
+    background-color: black;
+    color: white;
+    height: 40px;
+    border-radius: 8px;
+    padding: 5px 10px;
+    margin: auto;
+    cursor: pointer;
+    border: none;
+}
+
+.modal > .modal-content > .modal-body > .form-reg > .reg-btn > input:disabled {
+    background-color: #666;
+    box-shadow: 0px 0px 0px rgb(0, 0, 0);
+    cursor: not-allowed;
+}
+
+.modal
+    > .modal-content
+    > .modal-body
+    > .form-reg
+    > .reg-btn
+    > input:hover:enabled {
+    box-shadow: 0px 0px 4px rgb(0, 0, 0);
+}
+
+.modal > .modal-content > .modal-body > .form-reg > .form-input-reg > .fa-eye {
+    margin-left: -7%;
+}
+
+.modal
+    > .modal-content
+    > .modal-body
+    > .form-reg
+    > .form-input-reg
+    > .fa-eye-slash {
+    margin-left: -7%;
+}
+#feedback-input {
+    background-color: rgb(17, 77, 95);
+    border: 1px solid rgb(120, 154, 164);
+    border-bottom: 2px solid rgb(120, 154, 164);
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+}
+.modal > .modal-content > .modal-body > form > .feedback-btn {
+    margin: auto;
+    width: max-content;
+    padding: 20px;
+    font-size: 15px;
+}
+
+.modal > .modal-content > .modal-body > form > .feedback-btn > input {
+    background-color: black;
+    color: white;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    padding: 5px 10px;
+    margin: auto;
+    cursor: pointer;
+}
+.rating {
+    float: left;
+}
+
+.rating:not(:checked) > input {
+    position: absolute;
+    top: -9999px;
+    clip: rect(0, 0, 0, 0);
+}
+
+.rating:not(:checked) > label {
+    float: right;
+    width: 1em;
+    padding: 0 0.1em;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    font-size: 200%;
+    line-height: 1.2;
+    color: #ddd;
+    text-shadow: 1px 1px #bbb, 2px 2px #666,
+        0.1em 0.1em 0.2em rgba(0, 0, 0, 0.5);
+}
+
+.rating:not(:checked) > label:before {
+    content: "★ ";
+}
+
+.rating > input:checked ~ label {
+    color: #f70;
+    text-shadow: 1px 1px #c60, 2px 2px #940,
+        0.1em 0.1em 0.2em rgba(0, 0, 0, 0.5);
+}
+
+.rating:not(:checked) > label:hover,
+.rating:not(:checked) > label:hover ~ label {
+    color: gold;
+    text-shadow: 1px 1px goldenrod, 2px 2px #b57340,
+        0.1em 0.1em 0.2em rgba(0, 0, 0, 0.5);
+}
+
+.rating > input:checked + label:hover,
+.rating > input:checked + label:hover ~ label,
+.rating > input:checked ~ label:hover,
+.rating > input:checked ~ label:hover ~ label,
+.rating > label:hover ~ input:checked ~ label {
+    color: #ea0;
+    text-shadow: 1px 1px goldenrod, 2px 2px #b57340,
+        0.1em 0.1em 0.2em rgba(0, 0, 0, 0.5);
+}
+
+.rating > label:active {
+    position: relative;
+    top: 2px;
+    left: 2px;
+}
+#feedback-input {
+    background-color: rgba(120, 154, 164, 0.2);
+    scrollbar-width: none;
+}
+#feedback-input::-webkit-scrollbar {
+    width: 4px;
+}
+#feedback-input::-webkit-scrollbar-thumb {
+    background: #888;
+}
+.modal > .modal-wallet {
+    width: 60%;
+}
+.modal > .modal-wallet > .modal-header {
+    background-color: rgb(126, 231, 227);
+}
+.modal > .modal-wallet > .modal-header > .modal-header-title {
+    color: rgb(106, 152, 167);
+}
+.modal > .modal-wallet > .modal-header > .close {
+    background-color: rgb(92, 185, 182);
+}
+.modal > .modal-wallet > .modal-body {
+    background-color: rgb(126, 231, 227);
+}
+.modal > .modal-wallet > .modal-body > form {
+    width: 80%;
+}
+.modal > .modal-wallet > .modal-body > form > .form-input {
+    width: 50%;
+    float: left;
+}
+.modal > .modal-wallet > .modal-body > form > .form-input > .wallet-input {
+    background-color: rgba(0, 0, 0, 0);
+    width: 90%;
+    height: 35px;
+    border: rgb(126, 231, 227);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+    font-size: 17px;
+}
+/* .modal
+  > .modal-wallet
+  > .modal-body
+  > form
+  > .form-input
+  > input[type="text"]:focus {
+  border: rgb(126, 231, 227);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+} */
+/* .modal > .modal-wallet > .modal-body > form > .form-input > .wallet-file {
+  background-color: #666;
+} */
+.modal > .modal-wallet > .modal-body > form > .save-wallet {
+    margin: auto;
+    width: max-content;
+    padding: 20px;
+    font-size: 15px;
+}
+.modal
+    > .modal-wallet
+    > .modal-body
+    > form
+    > .save-wallet
+    > input[type="submit"] {
+    background-color: black;
+    color: white;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    padding: 5px 10px;
+    margin: auto;
+    cursor: pointer;
+}

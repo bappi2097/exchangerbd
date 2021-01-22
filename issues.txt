@@ -1,0 +1,28 @@
+1. History  >>fixed
+
+2. Feedback star close to border >>fixed
+
+3. cant Place order without login >> Fixed
+
+4. ammount calculation : 2nd (recive wallet) click korar age jodi ammount first box a lekha hoy taile pore recive click korar sathe sathe calculate hoccena ota thik kor >> fixed
+
+5. Modal a edit option thakbena >> fixed
+
+6. modal er mail ta valo view dite hobe! >> fixed
+
+7. Pending order table a lekha thakbe No Pending Orders >> fixed
+
+8. time vul dekhacce >> fixed
+
+9. forget password is not working >> fixed
+
+10. admin password page error >> fixed
+
+11. calculation is missing on admin approve order
+
+12. Admin login username to email >> fixed
+
+13. Mobile Navbar bug >> fixed
+
+usermail: arrakib1012@gmail.com
+pass: 01796837872

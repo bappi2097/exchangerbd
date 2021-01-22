@@ -1,0 +1,21 @@
+.header-how {
+  width: 300px;
+  color: black;
+  font-size: 25px;
+  margin-left: 100px;
+  background-color: #6abd4a;
+  padding: 20px 50px;
+  border-radius: 12px;
+}
+.how {
+  text-align: justify;
+  color: white;
+  font-size: 20px;
+  margin: 0 100px;
+}
+.foot-howtoexchange {
+  text-align: justify;
+  margin: 0 100px;
+  color: white;
+  font-size: 25px;
+}

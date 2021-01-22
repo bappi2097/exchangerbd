@@ -1,0 +1,297 @@
+@media (max-width: 880px) {
+  *::-webkit-scrollbar {
+    width: 4px;
+    display: block;
+  }
+  .review-body::-webkit-scrollbar {
+    width: 2px;
+    display: block;
+  }
+  *::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  *::-webkit-scrollbar {
+    height: 4px;
+  }
+  .navc > .navc-btn {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+  .navc > .navc-btn > label {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+  }
+  .navc > .navc-btn > label:hover,
+  .navc #navc-check:checked ~ .navc-btn > label {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  .navc > .navc-btn > label > span {
+    display: block;
+    width: 25px;
+    height: 10px;
+    border-top: 2px solid #eee;
+  }
+  .navc > .navc-links {
+    text-align: end;
+    position: absolute;
+    display: block;
+    /* width: 100%; */
+    background-color: rgb(15, 20, 40);
+    height: 0px;
+    transition: all 0.3s ease-in;
+    overflow-y: hidden;
+    top: 50px;
+    /* left: 0px; */
+  }
+  .navc > .navc-links > a {
+    margin: 2px 0;
+    display: block;
+    /* width: 20%; */
+    /* width: fit-content; */
+    border-bottom: 1px solid black;
+  }
+
+  .navc > .navc-links > .login {
+    background-color: rgb(106, 189, 74);
+  }
+  .navc > .navc-links > .reg {
+    background-color: rgb(81, 87, 96);
+  }
+
+  /* .navc > #navc-check:not(:checked) ~ .navc-links {
+    height: 0px;
+    margin: 0px;
+  } */
+  /* .navc > #navc-check:checked ~ .navc-links {
+    height: calc(100vh - 50px);
+    height: auto;
+    overflow-y: auto;
+    margin: 0px;
+    display: block;
+  } */
+  .show {
+    display: block;
+    overflow: hidden;
+    height: auto !important;
+    width: 100%;
+    left: -25px !important;
+  }
+  .pending-order {
+    margin: 0;
+    font-size: 12px;
+  }
+
+  .complete-order {
+    margin: 0;
+    font-size: 12px;
+  }
+  .notice-box {
+    margin: auto;
+    width: 100%;
+    background-color: rgb(125, 127, 139);
+    border-radius: 25px;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    /* padding: 0px 10px; */
+  }
+  .rowr {
+    margin: 30px 30px;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    overflow-y: hidden;
+    display: flex;
+    overflow-x: auto;
+  }
+  .review-box {
+    border-left: 5px solid #eee;
+    float: left;
+    width: 230px;
+    height: 270px;
+    background-color: rgb(17, 77, 95);
+    border-radius: 5px;
+    margin: 20px 20px;
+    box-shadow: 12px 14px 16px rgba(0, 0, 0, 0.6);
+  }
+  .order-box {
+    display: block;
+    background-color: rgb(207, 255, 94);
+    width: 80%;
+    height: auto;
+    border-radius: 18px;
+    margin: 50px 10% 20px 10%;
+    box-shadow: none !important;
+    padding-bottom: 15px;
+  }
+  .order-sub-box {
+    float: none !important;
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    margin: 5px 0;
+    padding: 0 10px;
+  }
+
+  .order-sub-box label {
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    margin: 5px 0;
+  }
+
+  .order-sub-box .selectc {
+    border-radius: 12px;
+    border-color: rgb(185, 195, 162);
+    margin: auto;
+    height: 40px;
+    width: 80%;
+  }
+
+  .order-sub-box .img {
+    margin: auto;
+    transform: rotate(90deg);
+  }
+
+  .order-sub-box .bd-amount {
+    border-color: rgb(185, 195, 162);
+    border-radius: 12px;
+    height: 40px;
+    background-color: rgb(88, 218, 61);
+    font-size: larger;
+    margin: auto;
+    width: 80%;
+  }
+  .order-sub-box * {
+    display: block;
+  }
+  .btnc {
+    margin: 30px 0;
+    justify-content: center !important;
+  }
+  .btn-cust {
+    background-color: rgb(207, 255, 94);
+    border-radius: 12px;
+    width: 40%;
+    height: 40px;
+    font-size: 18px;
+    padding: 0 5px !important;
+  }
+  .btn-cust:hover {
+    background-color: rgb(77, 210, 211);
+  }
+
+  .rates-div {
+    margin: 60px 20px 0 20px;
+  }
+  .footer-distributed {
+    padding-top: 20px;
+    font: bold 14px serif;
+  }
+  .footer-logo {
+    font-size: 22px;
+  }
+
+  .footer-service {
+    font-size: 17px !important;
+  }
+
+  .footer-language {
+    font-size: 20px !important;
+  }
+
+  .footer-distributed .footer-center,
+  .footer-distributed .footer-left {
+    width: 50%;
+    margin: 0;
+    float: left;
+    margin-bottom: 30px;
+  }
+
+  /* .footer-distributed .footer-left,
+  .footer-distributed .footer-center {
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  } */
+
+  /* .footer-distributed .footer-center i {
+    margin-left: 0;
+  } */
+  .footer-distributed .footer-right {
+    margin: auto;
+    font-size: 20px;
+    width: 40%;
+    text-align: center;
+    display: block;
+  }
+  .mobile-small {
+    width: 30px !important;
+    height: 30px !important;
+    font-size: 15px !important;
+    line-height: 32px !important;
+  }
+  .footer-distributed .footer-icons {
+    margin-top: 20px;
+    width: 121px !important;
+  }
+  .table td,
+  .table th {
+    padding: 0.5em;
+  }
+  .col-sm-12 {
+    padding: 0;
+  }
+  .modal > .modal-content {
+    width: 90% !important;
+  }
+  .modal > .modal-content > .modal-header {
+    padding: 15px !important;
+  }
+  .modal > .modal-content > .modal-header > .close {
+    font-size: 14px !important;
+    padding: 0 3px !important;
+    width: 19px !important;
+  }
+  .modal > .modal-content > .modal-header > .modal-header-title,
+  .modal > .modal-content > .modal-header > .close {
+    font-size: 18px !important;
+  }
+  .modal > .modal-content > .modal-body > form {
+    width: 90% !important;
+  }
+  .modal > .modal-content > .modal-body > form > .form-input {
+    font-size: 17px !important;
+  }
+  .modal > .modal-content > .modal-body > form > .remember-forget {
+    font-size: 14px !important;
+  }
+  .modal > .modal-content > .modal-body > form > .login-btn {
+    /* width: 50% !important; */
+    height: 37px;
+    font-size: 15px;
+    margin: auto;
+  }
+  /* .footer-distributed {
+    font: bold 14px serif;
+  }
+
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-center {
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .footer-distributed .footer-center i {
+    margin-left: 0;
+  }
+  .footer-distributed .footer-right {
+    font-size: 20px;
+  } */
+}
